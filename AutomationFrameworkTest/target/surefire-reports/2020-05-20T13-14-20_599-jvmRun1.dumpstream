@@ -1,0 +1,1022 @@
+# Created at 2020-05-20T13:18:38.761
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-05-20T13:19:13.081
+Unexpected IOException with stream: true
+
+# Created at 2020-05-20T13:19:13.083
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.112
+Unexpected IOException: 8,1,com.poferries.freight.AutomationFramework.web.runner.RunCukes,runScenario(com.poferries.freight.AutomationFramework.web.runner.RunCukes),null,Cannot locate element with text: <dt_route>\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KISPH7H'\002C ip: '192.168.0.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: unknown,null,Cannot locate element with text: <dt_route>\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KISPH7H'\002C ip: '192.168.0.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: unknown,RunCukes.runScenario \00BB NoSuchElement Cannot locate element with text: <dt_rout...,org.openqa.selenium.NoSuchElementException: \000ACannot locate element with text: <dt_route>\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KISPH7H'\002C ip: '192.168.0.7'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_241'\000ADriver info: driver.version: unknown\000A
+
+
+# Created at 2020-05-20T13:19:13.129
+Unexpected IOException with stream: @Regression
+
+
+# Created at 2020-05-20T13:19:13.130
+Unexpected IOException with stream: Feature: Validate the Booking process for a prelodgement
+
+
+# Created at 2020-05-20T13:19:13.132
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.133
+Unexpected IOException with stream:   Scenario Outline: Make a DataDriven booking for a prelodgement [90m# src/test/resources/features/web/MakeABookingDataDriven.feature:23[0m
+
+
+# Created at 2020-05-20T13:19:13.134
+Unexpected IOException with stream:     [36mAnd I set the "dt_language" and "dt_lengthUnit" units and "<row>"[0m
+
+
+# Created at 2020-05-20T13:19:13.136
+Unexpected IOException with stream:     [36mAnd I click the Book Link[0m
+
+
+# Created at 2020-05-20T13:19:13.138
+Unexpected IOException with stream:     [36mAnd I verify navigation to the Book Now Page[0m
+
+
+# Created at 2020-05-20T13:19:13.140
+Unexpected IOException with stream:     [36mWhen I select the "<dt_route>"[0m
+
+
+# Created at 2020-05-20T13:19:13.147
+Unexpected IOException with stream:     [36mAnd I select the journey type as "dt_journeyType"[0m
+
+
+# Created at 2020-05-20T13:19:13.148
+Unexpected IOException with stream:     [36mAnd I select the currency "dt_currencyUnit" and the country of origin "dt_originCountry"[0m
+
+
+# Created at 2020-05-20T13:19:13.149
+Unexpected IOException with stream:     [36mAnd I select the number of passengers "<dt_passengers>"[0m
+
+
+# Created at 2020-05-20T13:19:13.151
+Unexpected IOException with stream:     [36mAnd I make selections for "dt_dangerousGoods" and "dt_pets"[0m
+
+
+# Created at 2020-05-20T13:19:13.152
+Unexpected IOException with stream:     [36mAnd I click continue on the Select Route Form[0m
+
+
+# Created at 2020-05-20T13:19:13.153
+Unexpected IOException with stream:     [36mAnd I verify navigation to the Vehicle Reg Form[0m
+
+
+# Created at 2020-05-20T13:19:13.154
+Unexpected IOException with stream:     [36mAnd I enter the Vehicle Reg "dt_registrationNo" and "dt_length"[0m
+
+
+# Created at 2020-05-20T13:19:13.155
+Unexpected IOException with stream:     [36mAnd I slect the vehicle "dt_height"[0m
+
+
+# Created at 2020-05-20T13:19:13.156
+Unexpected IOException with stream:     [36mAnd I make selections for vehicle "dt_width" and "dt_weight"[0m
+
+
+# Created at 2020-05-20T13:19:13.157
+Unexpected IOException with stream:     [36mAnd I click continue on the Vehicle Registration Form[0m
+
+
+# Created at 2020-05-20T13:19:13.159
+Unexpected IOException with stream:     [36mAnd I verify navigation to the Review Booking Details Form[0m
+
+
+# Created at 2020-05-20T13:19:13.162
+Unexpected IOException with stream:     [36mAnd I verify the "dt_departure" and "dt_arrival" ports[0m
+
+
+# Created at 2020-05-20T13:19:13.163
+Unexpected IOException with stream:     [36mAnd I verify the vehicle "dt_registrationNo","dt_length","dt_height","dt_width" and "dt_weight"[0m
+
+
+# Created at 2020-05-20T13:19:13.164
+Unexpected IOException with stream:     [36mAnd I verify the number of "dt_passengers"[0m
+
+
+# Created at 2020-05-20T13:19:13.165
+Unexpected IOException with stream:     [36mAnd I verify the onward route "dt_onwardRoute" and the return route "dt_returnRoute"[0m
+
+
+# Created at 2020-05-20T13:19:13.166
+Unexpected IOException with stream:     [36mAnd I verify the "dt_netPrice","dt_vatAmount" and "dt_totalPrice"[0m
+
+
+# Created at 2020-05-20T13:19:13.168
+Unexpected IOException with stream:     [36mAnd I verify the return  "dt_returnNetPrice" and "dt_returnVatAmount" if required[0m
+
+
+# Created at 2020-05-20T13:19:13.169
+Unexpected IOException with stream:     [36mAnd I click the "dt_termsConditions" checkbox[0m
+
+
+# Created at 2020-05-20T13:19:13.170
+Unexpected IOException with stream:     [36mAnd I make a selection for "dt_billingAddress"[0m
+
+
+# Created at 2020-05-20T13:19:13.171
+Unexpected IOException with stream:     [36mAnd I click the Proceed To Payment button[0m
+
+
+# Created at 2020-05-20T13:19:13.173
+Unexpected IOException with stream:     [36mAnd I verify navigation to the Payment Page[0m
+
+
+# Created at 2020-05-20T13:19:13.176
+Unexpected IOException with stream:     [36mAnd I verify the "dt_billingName" and "dt_paymentPrice"[0m
+
+
+# Created at 2020-05-20T13:19:13.180
+Unexpected IOException with stream:     [36mAnd I verify the "dt_addressLine1","dt_addressLine2","dt_addressTown","dt_country" and "dt_postcode"[0m
+
+
+# Created at 2020-05-20T13:19:13.181
+Unexpected IOException with stream:     [36mAnd I enter the "dt_cardNumber","dt_cardExpiryDate" and the "dt_securityCode"[0m
+
+
+# Created at 2020-05-20T13:19:13.184
+Unexpected IOException with stream:     [36mAnd I click the PayNow button[0m
+
+
+# Created at 2020-05-20T13:19:13.186
+Unexpected IOException with stream:     [36mAnd I close the payment success survey popup if required[0m
+
+
+# Created at 2020-05-20T13:19:13.187
+Unexpected IOException with stream:     [36mThen I verify navigation to the Booking Confirmation Page[0m
+
+
+# Created at 2020-05-20T13:19:13.189
+Unexpected IOException with stream:     [36mAnd I verify confirmed "dt_route"[0m
+
+
+# Created at 2020-05-20T13:19:13.190
+Unexpected IOException with stream:     [36mAnd I verify the confirmed vehicle "dt_registrationNo","dt_length","dt_height","dt_width" and "dt_weight"[0m
+
+
+# Created at 2020-05-20T13:19:13.192
+Unexpected IOException with stream:     [36mAnd I verify the confirmed number of "dt_passengers"[0m
+
+
+# Created at 2020-05-20T13:19:13.193
+Unexpected IOException with stream:     [36mAnd I verify the confirmed onward route "dt_onwardRoute" and the confirmed return route "dt_returnRoute" if required[0m
+
+
+# Created at 2020-05-20T13:19:13.195
+Unexpected IOException with stream:     [36mAnd I verify the confirmed Payment Amounts "dt_netPrice","dt_vatAmount" and "dt_totalPrice"[0m
+
+
+# Created at 2020-05-20T13:19:13.196
+Unexpected IOException with stream:     [36mAnd I verify the confirmed return  "dt_returnNetPrice" and "dt_returnVatAmount" if required[0m
+
+
+# Created at 2020-05-20T13:19:13.198
+Unexpected IOException with stream:     [36mAnd I verify the confirmed Payment Details "dt_paymentDate","dt_paymentType" and "dt_paymentStatus"[0m
+
+
+# Created at 2020-05-20T13:19:13.199
+Unexpected IOException with stream:     [36mAnd I caputure the waybillNumber[0m
+
+
+# Created at 2020-05-20T13:19:13.200
+Unexpected IOException with stream:     [36mAnd I Logout of Application[0m
+
+
+# Created at 2020-05-20T13:19:13.201
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.202
+Unexpected IOException with stream:     Examples: 
+
+
+# Created at 2020-05-20T13:19:13.204
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.205
+Unexpected IOException with stream:   Background:                                          [90m# src/test/resources/features/web/MakeABookingDataDriven.feature:14[0m
+
+
+# Created at 2020-05-20T13:19:13.223
+Unexpected IOException with stream:     [32mGiven [0m[32mI navigate to the PO Ferries Freight Website[0m [90m# MakeABookingSteps.i_navigate_to_the_PO_Ferries_Freight_Website()[0m
+
+
+# Created at 2020-05-20T13:19:13.226
+Unexpected IOException with stream:     [32mAnd [0m[32mI click the Book Now Link[0m                      [90m# LoginSteps.i_click_the_Book_Now_Link()[0m
+
+
+# Created at 2020-05-20T13:19:13.229
+Unexpected IOException with stream:     [32mAnd [0m[32mI verfy navigation to the Account holders Page[0m [90m# MakeABookingSteps.i_verfy_navigation_to_the_Account_holders_Page()[0m
+
+
+# Created at 2020-05-20T13:19:13.231
+Unexpected IOException with stream:     [32mAnd [0m[32mI click the PayAndGo SignIn Link[0m               [90m# MakeABookingSteps.i_click_the_PayAndGo_SignIn_Link()[0m
+
+
+# Created at 2020-05-20T13:19:13.233
+Unexpected IOException with stream:     [32mAnd [0m[32mI verify navigation to the Login page[0m          [90m# LoginSteps.i_verify_navigation_to_the_Login_page()[0m
+
+
+# Created at 2020-05-20T13:19:13.235
+Unexpected IOException with stream:     [32mAnd [0m[32mI successfully login[0m                           [90m# MakeABookingSteps.i_successfully_login()[0m
+
+
+# Created at 2020-05-20T13:19:13.238
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.239
+Unexpected IOException with stream:   @Regression
+
+
+# Created at 2020-05-20T13:19:13.239
+Unexpected IOException with stream:   Scenario Outline: Make a DataDriven booking for a prelodgement                                                         [90m# src/test/resources/features/web/MakeABookingDataDriven.feature:68[0m
+
+
+# Created at 2020-05-20T13:19:13.243
+Unexpected IOException with stream:     [32mAnd [0m[32mI set the "[0m[32m[1mdt_language[0m[32m" and "[0m[32m[1mdt_lengthUnit[0m[32m" units and "[0m[32m[1m1[0m[32m"[0m                                                        [90m# MakeABookingSteps.i_set_the_and_units_and(String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.244
+Unexpected IOException with stream:     [32mAnd [0m[32mI click the Book Link[0m                                                                                            [90m# MakeABookingSteps.i_click_the_Book_Link()[0m
+
+
+# Created at 2020-05-20T13:19:13.246
+Unexpected IOException with stream:     [32mAnd [0m[32mI verify navigation to the Book Now Page[0m                                                                         [90m# MakeABookingSteps.i_verify_navigation_to_the_Book_Now_Page()[0m
+
+
+# Created at 2020-05-20T13:19:13.247
+Unexpected IOException with stream:     [31mWhen [0m[31mI select the [0m[31m[1m"<dt_route>"[0m                                                                                       [90m# MakeABookingSteps.i_select_the(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.249
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchElementException: Cannot locate element with text: <dt_route>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.poferries.freight.AutomationFramework.web.actions.BookNowPageActions.selectRoute(BookNowPageActions.java:28)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_select_the(MakeABookingSteps.java:1931)
+	at ?.I select the "<dt_route>"(file:src/test/resources/features/web/MakeABookingDataDriven.feature:28)
+[0m
+
+
+# Created at 2020-05-20T13:19:13.251
+Unexpected IOException with stream:     [36mAnd [0m[36mI select the journey type as "[0m[36m[1mdt_journeyType[0m[36m"[0m                                                                    [90m# MakeABookingSteps.i_select_the_journey_type_as(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.252
+Unexpected IOException with stream:     [36mAnd [0m[36mI select the currency "[0m[36m[1mdt_currencyUnit[0m[36m" and the country of origin "[0m[36m[1mdt_originCountry[0m[36m"[0m                             [90m# MakeABookingSteps.i_select_the_currency_and_the_country_of_origin(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.254
+Unexpected IOException with stream:     [36mAnd [0m[36mI select the number of passengers [0m[36m[1m"<dt_passengers>"[0m                                                              [90m# MakeABookingSteps.i_select_the_number_of_passengers(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.255
+Unexpected IOException with stream:     [36mAnd [0m[36mI make selections for "[0m[36m[1mdt_dangerousGoods[0m[36m" and "[0m[36m[1mdt_pets[0m[36m"[0m                                                          [90m# MakeABookingSteps.i_make_selections_for_and(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.256
+Unexpected IOException with stream:     [36mAnd [0m[36mI click continue on the Select Route Form[0m                                                                        [90m# MakeABookingSteps.i_click_continue_on_the_Select_Route_Form()[0m
+
+
+# Created at 2020-05-20T13:19:13.258
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify navigation to the Vehicle Reg Form[0m                                                                      [90m# MakeABookingSteps.i_verify_navigation_to_the_Vehicle_Reg_Form()[0m
+
+
+# Created at 2020-05-20T13:19:13.259
+Unexpected IOException with stream:     [36mAnd [0m[36mI enter the Vehicle Reg "[0m[36m[1mdt_registrationNo[0m[36m" and "[0m[36m[1mdt_length[0m[36m"[0m                                                      [90m# MakeABookingSteps.i_enter_the_Vehicle_Reg_and(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.260
+Unexpected IOException with stream:     [36mAnd [0m[36mI slect the vehicle "[0m[36m[1mdt_height[0m[36m"[0m                                                                                  [90m# MakeABookingSteps.i_slect_the_vehicle(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.261
+Unexpected IOException with stream:     [36mAnd [0m[36mI make selections for vehicle "[0m[36m[1mdt_width[0m[36m" and "[0m[36m[1mdt_weight[0m[36m"[0m                                                         [90m# MakeABookingSteps.i_make_selections_for_vehicle_and(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.262
+Unexpected IOException with stream:     [36mAnd [0m[36mI click continue on the Vehicle Registration Form[0m                                                                [90m# MakeABookingSteps.i_click_continue_on_the_Vehicle_Registration_Form()[0m
+
+
+# Created at 2020-05-20T13:19:13.263
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify navigation to the Review Booking Details Form[0m                                                           [90m# MakeABookingSteps.i_verify_navigation_to_the_Review_Booking_Details_Form()[0m
+
+
+# Created at 2020-05-20T13:19:13.264
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the "[0m[36m[1mdt_departure[0m[36m" and "[0m[36m[1mdt_arrival[0m[36m" ports[0m                                                               [90m# MakeABookingSteps.i_verify_the_and_ports(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.265
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the vehicle "[0m[36m[1mdt_registrationNo[0m[36m","[0m[36m[1mdt_length[0m[36m","[0m[36m[1mdt_height[0m[36m","[0m[36m[1mdt_width[0m[36m" and "[0m[36m[1mdt_weight[0m[36m"[0m                      [90m# MakeABookingSteps.i_verify_the_vehicle_and(String,String,String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.266
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the number of "[0m[36m[1mdt_passengers[0m[36m"[0m                                                                           [90m# MakeABookingSteps.i_verify_the_number_of(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.267
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the onward route "[0m[36m[1mdt_onwardRoute[0m[36m" and the return route "[0m[36m[1mdt_returnRoute[0m[36m"[0m                                 [90m# MakeABookingSteps.i_verify_the_onward_route_and_the_return_route(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.269
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the "[0m[36m[1mdt_netPrice[0m[36m","[0m[36m[1mdt_vatAmount[0m[36m" and "[0m[36m[1mdt_totalPrice[0m[36m"[0m                                                    [90m# MakeABookingSteps.i_verify_the_and(String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.270
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the return  "[0m[36m[1mdt_returnNetPrice[0m[36m" and "[0m[36m[1mdt_returnVatAmount[0m[36m" if required[0m                                    [90m# MakeABookingSteps.i_verify_the_return_and_if_required(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.270
+Unexpected IOException with stream:     [36mAnd [0m[36mI click the "[0m[36m[1mdt_termsConditions[0m[36m" checkbox[0m                                                                        [90m# MakeABookingSteps.i_click_the_checkbox(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.271
+Unexpected IOException with stream:     [36mAnd [0m[36mI make a selection for "[0m[36m[1mdt_billingAddress[0m[36m"[0m                                                                       [90m# MakeABookingSteps.i_make_a_selection_for(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.272
+Unexpected IOException with stream:     [36mAnd [0m[36mI click the Proceed To Payment button[0m                                                                            [90m# MakeABookingSteps.i_click_the_Proceed_To_Payment_button()[0m
+
+
+# Created at 2020-05-20T13:19:13.273
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify navigation to the Payment Page[0m                                                                          [90m# MakeABookingSteps.i_verify_navigation_to_the_Payment_Page()[0m
+
+
+# Created at 2020-05-20T13:19:13.274
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the "[0m[36m[1mdt_billingName[0m[36m" and "[0m[36m[1mdt_paymentPrice[0m[36m"[0m                                                              [90m# MakeABookingSteps.i_verify_the_and(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.276
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the "[0m[36m[1mdt_addressLine1[0m[36m","[0m[36m[1mdt_addressLine2[0m[36m","[0m[36m[1mdt_addressTown[0m[36m","[0m[36m[1mdt_country[0m[36m" and "[0m[36m[1mdt_postcode[0m[36m"[0m                 [90m# MakeABookingSteps.i_verify_the_and(String,String,String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.278
+Unexpected IOException with stream:     [36mAnd [0m[36mI enter the "[0m[36m[1mdt_cardNumber[0m[36m","[0m[36m[1mdt_cardExpiryDate[0m[36m" and the "[0m[36m[1mdt_securityCode[0m[36m"[0m                                        [90m# MakeABookingSteps.i_enter_the_and_the(String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.279
+Unexpected IOException with stream:     [36mAnd [0m[36mI click the PayNow button[0m                                                                                        [90m# MakeABookingSteps.i_click_the_PayNow_button()[0m
+
+
+# Created at 2020-05-20T13:19:13.280
+Unexpected IOException with stream:     [36mAnd [0m[36mI close the payment success survey popup if required[0m                                                             [90m# MakeABookingSteps.i_close_the_payment_success_survey_popup_if_required()[0m
+
+
+# Created at 2020-05-20T13:19:13.281
+Unexpected IOException with stream:     [36mThen [0m[36mI verify navigation to the Booking Confirmation Page[0m                                                            [90m# MakeABookingSteps.i_verify_navigation_to_the_Booking_Confirmation_Page()[0m
+
+
+# Created at 2020-05-20T13:19:13.283
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify confirmed "[0m[36m[1mdt_route[0m[36m"[0m                                                                                    [90m# MakeABookingSteps.i_verify_confirmed(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.284
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed vehicle "[0m[36m[1mdt_registrationNo[0m[36m","[0m[36m[1mdt_length[0m[36m","[0m[36m[1mdt_height[0m[36m","[0m[36m[1mdt_width[0m[36m" and "[0m[36m[1mdt_weight[0m[36m"[0m            [90m# MakeABookingSteps.i_verify_the_confirmed_vehicle_and(String,String,String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.286
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed number of "[0m[36m[1mdt_passengers[0m[36m"[0m                                                                 [90m# MakeABookingSteps.i_verify_the_confirmed_number_of(String)[0m
+
+
+# Created at 2020-05-20T13:19:13.288
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed onward route "[0m[36m[1mdt_onwardRoute[0m[36m" and the confirmed return route "[0m[36m[1mdt_returnRoute[0m[36m" if required[0m [90m# MakeABookingSteps.i_verify_the_confirmed_onward_route_and_the_confirmed_return_route_if_required(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.290
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed Payment Amounts "[0m[36m[1mdt_netPrice[0m[36m","[0m[36m[1mdt_vatAmount[0m[36m" and "[0m[36m[1mdt_totalPrice[0m[36m"[0m                          [90m# MakeABookingSteps.i_verify_the_confirmed_Payment_Amounts_and(String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.291
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed return  "[0m[36m[1mdt_returnNetPrice[0m[36m" and "[0m[36m[1mdt_returnVatAmount[0m[36m" if required[0m                          [90m# MakeABookingSteps.i_verify_the_confirmed_return_and_if_required(String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.292
+Unexpected IOException with stream:     [36mAnd [0m[36mI verify the confirmed Payment Details "[0m[36m[1mdt_paymentDate[0m[36m","[0m[36m[1mdt_paymentType[0m[36m" and "[0m[36m[1mdt_paymentStatus[0m[36m"[0m                  [90m# MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(String,String,String)[0m
+
+
+# Created at 2020-05-20T13:19:13.294
+Unexpected IOException with stream:     [36mAnd [0m[36mI caputure the waybillNumber[0m                                                                                     [90m# MakeABookingSteps.i_caputure_the_waybillNumber()[0m
+
+
+# Created at 2020-05-20T13:19:13.295
+Unexpected IOException with stream:     [36mAnd [0m[36mI Logout of Application[0m                                                                                          [90m# MakeABookingSteps.i_logout_of_application()[0m
+
+
+# Created at 2020-05-20T13:19:13.298
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3f3b158e82609df2ac9e0007f123887
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.AfterActions.tearDown(AfterActions.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:49)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:57)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[0m
+
+
+# Created at 2020-05-20T13:19:13.325
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.326
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created at 2020-05-20T13:19:13.327
+Unexpected IOException with stream: [31msrc/test/resources/features/web/MakeABookingDataDriven.feature:68 [0m
+
+# Created at 2020-05-20T13:19:13.327
+Unexpected IOException with stream: # Make a DataDriven booking for a prelodgement
+
+
+# Created at 2020-05-20T13:19:13.328
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.329
+Unexpected IOException with stream: 1
+
+# Created at 2020-05-20T13:19:13.330
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-05-20T13:19:13.330
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2020-05-20T13:19:13.331
+Unexpected IOException with stream: )
+
+
+# Created at 2020-05-20T13:19:13.332
+Unexpected IOException with stream: 46
+
+# Created at 2020-05-20T13:19:13.332
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-05-20T13:19:13.333
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created at 2020-05-20T13:19:13.334
+Unexpected IOException with stream: , 
+
+# Created at 2020-05-20T13:19:13.335
+Unexpected IOException with stream: [36m36 skipped[0m
+
+# Created at 2020-05-20T13:19:13.336
+Unexpected IOException with stream: , 
+
+# Created at 2020-05-20T13:19:13.337
+Unexpected IOException with stream: [32m9 passed[0m
+
+# Created at 2020-05-20T13:19:13.338
+Unexpected IOException with stream: )
+
+
+# Created at 2020-05-20T13:19:13.339
+Unexpected IOException with stream: 4m
+
+# Created at 2020-05-20T13:19:13.342
+Unexpected IOException with stream: 50.686s
+
+
+# Created at 2020-05-20T13:19:13.343
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.345
+Unexpected IOException with stream: org.openqa.selenium.NoSuchElementException: Cannot locate element with text: <dt_route>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown
+
+# Created at 2020-05-20T13:19:13.346
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.347
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+
+# Created at 2020-05-20T13:19:13.348
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.349
+Unexpected IOException with stream: 	at com.poferries.freight.AutomationFramework.web.actions.BookNowPageActions.selectRoute(BookNowPageActions.java:28)
+
+# Created at 2020-05-20T13:19:13.351
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.352
+Unexpected IOException with stream: 	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_select_the(MakeABookingSteps.java:1931)
+
+# Created at 2020-05-20T13:19:13.352
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.353
+Unexpected IOException with stream: 	at ?.I select the "<dt_route>"(file:src/test/resources/features/web/MakeABookingDataDriven.feature:28)
+
+# Created at 2020-05-20T13:19:13.354
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.355
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.357
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3f3b158e82609df2ac9e0007f123887
+
+# Created at 2020-05-20T13:19:13.358
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.359
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-05-20T13:19:13.360
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.361
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-05-20T13:19:13.362
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.363
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-05-20T13:19:13.363
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.364
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2020-05-20T13:19:13.364
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.365
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-05-20T13:19:13.367
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.368
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-05-20T13:19:13.369
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.370
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-05-20T13:19:13.371
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.372
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-05-20T13:19:13.374
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.375
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-05-20T13:19:13.377
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.378
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2020-05-20T13:19:13.380
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.382
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+
+# Created at 2020-05-20T13:19:13.383
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.384
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+
+# Created at 2020-05-20T13:19:13.385
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.386
+Unexpected IOException with stream: 	at com.poferries.freight.AutomationFramework.web.stepDefinitions.AfterActions.tearDown(AfterActions.java:23)
+
+# Created at 2020-05-20T13:19:13.386
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.387
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-05-20T13:19:13.387
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.388
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-05-20T13:19:13.391
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.392
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-05-20T13:19:13.393
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.394
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2020-05-20T13:19:13.395
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.396
+Unexpected IOException with stream: 	at cucumber.runtime.Utils$1.call(Utils.java:26)
+
+# Created at 2020-05-20T13:19:13.397
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.398
+Unexpected IOException with stream: 	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+
+# Created at 2020-05-20T13:19:13.399
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.400
+Unexpected IOException with stream: 	at cucumber.runtime.Utils.invoke(Utils.java:20)
+
+# Created at 2020-05-20T13:19:13.401
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.401
+Unexpected IOException with stream: 	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+
+# Created at 2020-05-20T13:19:13.402
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.402
+Unexpected IOException with stream: 	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+
+# Created at 2020-05-20T13:19:13.403
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.403
+Unexpected IOException with stream: 	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+
+# Created at 2020-05-20T13:19:13.404
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.405
+Unexpected IOException with stream: 	at cucumber.runner.TestStep.run(TestStep.java:50)
+
+# Created at 2020-05-20T13:19:13.406
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.408
+Unexpected IOException with stream: 	at cucumber.runner.TestCase.run(TestCase.java:50)
+
+# Created at 2020-05-20T13:19:13.408
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.409
+Unexpected IOException with stream: 	at cucumber.runner.Runner.runPickle(Runner.java:49)
+
+# Created at 2020-05-20T13:19:13.410
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.410
+Unexpected IOException with stream: 	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:57)
+
+# Created at 2020-05-20T13:19:13.411
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.412
+Unexpected IOException with stream: 	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+
+# Created at 2020-05-20T13:19:13.412
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.413
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-05-20T13:19:13.414
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.415
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-05-20T13:19:13.416
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.416
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-05-20T13:19:13.417
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.418
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2020-05-20T13:19:13.419
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.419
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2020-05-20T13:19:13.420
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.421
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2020-05-20T13:19:13.421
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.422
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2020-05-20T13:19:13.423
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.424
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2020-05-20T13:19:13.425
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.425
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2020-05-20T13:19:13.426
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.426
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2020-05-20T13:19:13.427
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.428
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2020-05-20T13:19:13.428
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.429
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2020-05-20T13:19:13.430
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.430
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2020-05-20T13:19:13.431
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.431
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+
+# Created at 2020-05-20T13:19:13.432
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.432
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+
+# Created at 2020-05-20T13:19:13.433
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.433
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+
+# Created at 2020-05-20T13:19:13.434
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.434
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+
+# Created at 2020-05-20T13:19:13.435
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.435
+Unexpected IOException with stream: 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+
+# Created at 2020-05-20T13:19:13.436
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.436
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+
+# Created at 2020-05-20T13:19:13.437
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.438
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+
+# Created at 2020-05-20T13:19:13.439
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.440
+Unexpected IOException with stream: 	at org.testng.TestNG.runSuites(TestNG.java:1049)
+
+# Created at 2020-05-20T13:19:13.441
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.441
+Unexpected IOException with stream: 	at org.testng.TestNG.run(TestNG.java:1017)
+
+# Created at 2020-05-20T13:19:13.442
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.443
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+
+# Created at 2020-05-20T13:19:13.444
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.445
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+
+# Created at 2020-05-20T13:19:13.445
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.446
+Unexpected IOException with stream: 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+
+# Created at 2020-05-20T13:19:13.447
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.448
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-05-20T13:19:13.449
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.450
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-05-20T13:19:13.451
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.452
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-05-20T13:19:13.454
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.455
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-05-20T13:19:13.457
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.458
+Unexpected IOException with stream: 
+
+
+# Created at 2020-05-20T13:19:13.575
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

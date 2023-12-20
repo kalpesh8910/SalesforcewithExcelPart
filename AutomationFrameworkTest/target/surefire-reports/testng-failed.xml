@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <classes>
+      <class name="com.poferries.freight.AutomationFramework.web.runner.RunCukes">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 8 22 23 26 27 28 29 30 31 32 45 56 57 58 59 60 61"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.poferries.freight.AutomationFramework.web.runner.RunCukes -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

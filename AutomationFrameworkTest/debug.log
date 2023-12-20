@@ -1,0 +1,31 @@
+[0830/144332.024:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0909/211037.420:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0909/211037.421:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0909/211037.421:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1008/132530.033:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[1008/134340.043:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[1009/134340.067:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[1017/161027.414:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1017/161027.423:ERROR:exception_snapshot_win.cc(98)] thread ID 7368 not found in process
+[1017/161828.418:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1017/161828.419:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1017/161828.419:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1017/161828.419:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1017/161828.419:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1017/161828.419:ERROR:exception_snapshot_win.cc(98)] thread ID 6348 not found in process
+[1021/150807.799:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1021/150807.864:ERROR:exception_snapshot_win.cc(98)] thread ID 9836 not found in process
+[1021/154726.183:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0206/105636.381:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0206/111030.417:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0217/134301.511:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0312/135720.183:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0325/162545.790:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0326/011209.061:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0326/061608.063:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0401/041032.441:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0421/115907.293:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0514/112000.813:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0519/172759.753:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0519/221612.568:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0
+[0529/015347.150:ERROR:file_io.cc(89)] ReadExactly: expected 36, observed 0

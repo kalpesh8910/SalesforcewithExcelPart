@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="7,191.121" tests="72" errors="0" skipped="6" failures="12">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\target\test-classes;C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\target\classes;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-java\4.3.1\cucumber-java-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-core\4.3.1\cucumber-core-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\AKHIL\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\AKHIL\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\AKHIL\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-testng\4.3.1\cucumber-testng-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-picocontainer\4.3.1\cucumber-picocontainer-4.3.1.jar;C:\Users\AKHIL\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\AKHIL\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\AKHIL\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\AKHIL\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\AKHIL\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\AKHIL\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\AKHIL\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\AKHIL\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\AKHIL\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\AKHIL\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\AKHIL\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\AKHIL\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\AKHIL\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\AKHIL\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\AKHIL\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Users\AKHIL\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\AKHIL\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-math3\3.0\commons-math3-3.0.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\AKHIL\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\AKHIL\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\AKHIL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\AKHIL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\AKHIL\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AKHIL\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\AKHIL\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\AKHIL\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\AKHIL\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\AKHIL\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\AKHIL\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\AKHIL\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\AKHIL\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\AKHIL\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\AKHIL\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\AKHIL\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.1\webdrivermanager-2.2.1.jar;C:\Users\AKHIL\.m2\repository\org\slf4j\slf4j-api\1.7.24\slf4j-api-1.7.24.jar;C:\Users\AKHIL\.m2\repository\org\rauschig\jarchivelib\0.7.1\jarchivelib-0.7.1.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-compress\1.9\commons-compress-1.9.jar;C:\Users\AKHIL\.m2\repository\org\jsoup\jsoup\1.10.2\jsoup-1.10.2.jar;C:\Users\AKHIL\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\AKHIL\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\AKHIL\AppData\Local\Temp\surefire5986139529254266147\surefirebooter1179522852635054962.jar C:\Users\AKHIL\AppData\Local\Temp\surefire5986139529254266147 2020-05-29T00-04-06_145-jvmRun1 surefire4149090195716652398tmp surefire_01257013641577336522tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\target\test-classes;C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\target\classes;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-java\4.3.1\cucumber-java-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-core\4.3.1\cucumber-core-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-expressions\6.2.2\cucumber-expressions-6.2.2.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\AKHIL\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\AKHIL\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\AKHIL\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-testng\4.3.1\cucumber-testng-4.3.1.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-picocontainer\4.3.1\cucumber-picocontainer-4.3.1.jar;C:\Users\AKHIL\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\AKHIL\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\AKHIL\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\AKHIL\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\AKHIL\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\AKHIL\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\AKHIL\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\AKHIL\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\AKHIL\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\AKHIL\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\AKHIL\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\AKHIL\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\AKHIL\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\AKHIL\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\AKHIL\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\AKHIL\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\AKHIL\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\AKHIL\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.11\poi-ooxml-schemas-3.11.jar;C:\Users\AKHIL\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\AKHIL\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-math3\3.0\commons-math3-3.0.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\AKHIL\.m2\repository\io\appium\java-client\6.1.0\java-client-6.1.0.jar;C:\Users\AKHIL\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\AKHIL\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\AKHIL\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\AKHIL\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\AKHIL\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\AKHIL\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\AKHIL\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\AKHIL\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\AKHIL\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\AKHIL\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\AKHIL\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\AKHIL\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\AKHIL\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\AKHIL\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\AKHIL\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\AKHIL\.m2\repository\io\github\bonigarcia\webdrivermanager\2.2.1\webdrivermanager-2.2.1.jar;C:\Users\AKHIL\.m2\repository\org\slf4j\slf4j-api\1.7.24\slf4j-api-1.7.24.jar;C:\Users\AKHIL\.m2\repository\org\rauschig\jarchivelib\0.7.1\jarchivelib-0.7.1.jar;C:\Users\AKHIL\.m2\repository\org\apache\commons\commons-compress\1.9\commons-compress-1.9.jar;C:\Users\AKHIL\.m2\repository\org\jsoup\jsoup\1.10.2\jsoup-1.10.2.jar;C:\Users\AKHIL\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\AKHIL\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\AKHIL"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="C:\Users\AKHIL\POFerriesAutomation\AutomationFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\AKHIL\AppData\Local\Temp\surefire5986139529254266147\surefirebooter1179522852635054962.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="AKHIL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\AKHIL\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKHIL\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="C:\Users\AKHIL\POFerriesAutomation\AutomationFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\AKHIL\AppData\Local\Android\Sdk\platform-tools;C:\Users\AKHIL\AppData\Local\Android\Sdk\tools;C:\Users\AKHIL\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\AKHIL\AppData\Local\Microsoft\WindowsApps;C:\Users\AKHIL\AppData\Roaming\npm;C:\Users\AKHIL\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="140.69">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=79.0.3945.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 896dbaa182d620c54d170964c1aa7ed6" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 896dbaa182d620c54d170964c1aa7ed6
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 25026
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590707052.953][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:04:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590707057.034][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="84.976"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="78.183"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="77.121"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="85.013"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="88.757"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="129.439"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="216.026"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="351.074">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Logout&quot;}&#10;  (Session info: chrome=79.0.3945.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 55c27ec3539c00b06a5d1b05806160d8&#10;*** Element info: {Using=link text, value=Logout}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55c27ec3539c00b06a5d1b05806160d8
+*** Element info: {Using=link text, value=Logout}
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29215
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590707951.583][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:19:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590707955.603][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="24.888"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="24.061"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="34.698"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="26.241"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="29.177"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="27.226"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="25.804"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="110.469"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="77.305"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="102.413"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="85.903"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="140.21"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="99.642"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="144.956">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //*[@class=&apos;btn btn-secondary float-left&apos; because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@class=&apos;btn btn-secondary float-left&apos;&apos; is not a valid XPath expression.&#10;  (Session info: chrome=79.0.3945.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e4c0e37740922e51a94cb9f48008772b&#10;*** Element info: {Using=xpath, value=//*[@class=&apos;btn btn-secondary float-left&apos;}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@class='btn btn-secondary float-left' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@class='btn btn-secondary float-left'' is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4c0e37740922e51a94cb9f48008772b
+*** Element info: {Using=xpath, value=//*[@class='btn btn-secondary float-left'}
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 34757
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709110.687][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:38:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709114.728][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="105.545">
+    <failure message="invalid selector: Unable to locate an element with the xpath expression //*[@class=&apos;btn btn-secondary float-left&apos; because of the following error:&#10;SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@class=&apos;btn btn-secondary float-left&apos;&apos; is not a valid XPath expression.&#10;  (Session info: chrome=79.0.3945.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5e3390ca785df81b66ef53e44414cd11&#10;*** Element info: {Using=xpath, value=//*[@class=&apos;btn btn-secondary float-left&apos;}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression //*[@class='btn btn-secondary float-left' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@class='btn btn-secondary float-left'' is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e3390ca785df81b66ef53e44414cd11
+*** Element info: {Using=xpath, value=//*[@class='btn btn-secondary float-left'}
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 7900
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709255.605][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:40:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709259.624][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="30.618"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="16.929"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="171.954">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 39031
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709408.715][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:43:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709412.750][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="124.963">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 9869
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709580.705][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:46:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709584.734][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="128.44">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 46425
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709705.648][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:48:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709709.686][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="120.425">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 29740
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709834.112][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:50:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709838.144][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="119.504">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 16718
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590709954.478][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:52:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590709958.517][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="143.018">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 24621
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590710073.977][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:54:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590710078.016][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="128.086">
+    <failure message="expected [29-May-2020] but found [28-May-2020]" type="java.lang.AssertionError">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 43002
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590710216.994][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 12:56:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590710221.034][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="121.226"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="115.701"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="91.166"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="81"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="132.194"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="90.992"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="138.678"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="77.454"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="102.48"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="97.828"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="105.255"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="107.494"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="26.796">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=79.0.3945.79)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: a46eb993f0a6f6044eb2e8c2126739cf" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KISPH7H', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a46eb993f0a6f6044eb2e8c2126739cf
+</failure>
+    <system-out><![CDATA[true
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 46584
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590711606.645][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:20:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590711610.668][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="115.501"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="107.906"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="115.938"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="107.143"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="117.747"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="107.547"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="108.78"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="102.555"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="133.92"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="193.804"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 16736
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590712844.479][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:40:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590712848.523][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 47019
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590712950.773][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:42:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590712954.823][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 10080
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590713071.472][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:44:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590713075.515][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 36345
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590713184.501][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:46:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590713188.533][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 31308
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590713327.207][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:48:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590713331.242][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="0">
+    <skipped message="There are undefined steps"/>
+    <system-out><![CDATA[false
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 13735
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590713459.943][WARNING]: Timed out connecting to Chrome, retrying...
+May 29, 2020 1:51:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1590713463.986][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="39.834"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="42.252"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="41.208"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="53.531"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="69.651"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="82.491"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="67.463"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="97.277"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="87.34"/>
+  <testcase name="runScenario" classname="com.poferries.freight.AutomationFramework.web.runner.RunCukes" time="68.103"/>
+</testsuite>

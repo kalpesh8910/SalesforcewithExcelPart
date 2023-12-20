@@ -1,0 +1,2150 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">72 methods, 12 failed,  6 skipped,  54 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement with invalid card Details and cancelling the payment&quot;, &quot;Invalid C...)">runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement with invalid card Details and cancelling the payment&quot;, &quot;Invalid C...)">runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Change password Successfully&quot;, &quot;Change password functionality&quot;)">runScenario("Change password Successfully", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;LogIn with InValid Credentials&quot;, &quot;Signing in to Web with correct account details&quot;)">runScenario("LogIn with InValid Credentials", "Signing in to Web with correct account details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify address has been changed from profile ...)">runScenario("Verify error messages when invalid data is entered", "Verify address has been changed from profile ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Verify wheather profile changes have been updated&quot;, &quot;Verify Profile Page field validations&quot;)">runScenario("Verify wheather profile changes have been updated", "Verify Profile Page field validations")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Blank fields", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Amend Booking&quot;, &quot;Vehicle Registration Field&quot;)">runScenario("Amend Booking", "Vehicle Registration Field")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Blank fields", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Invalid Details", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Blank fields", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Blank fields", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Amend Booking&quot;, &quot;Vehicle Registration Field&quot;)">runScenario("Amend Booking", "Vehicle Registration Field")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Invalid Details", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">runScenario("Click Update password with Invalid Details", "Change password functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;LogIn and Logout with Valid Credentials&quot;, &quot;Signing in to Web with correct account details&quot;)">runScenario("LogIn and Logout with Valid Credentials", "Signing in to Web with correct account details")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Amend Booking&quot;, &quot;Amend Booking&quot;)">runScenario("Amend Booking", "Amend Booking")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.poferries.freight.AutomationFramework.web.runner.RunCukes" hash-for-method="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.poferries.freight.AutomationFramework.web.runner.RunCukes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement with invalid card Details and cancelling the payment&quot;, &quot;Invalid C...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid Card Details and Cancel Payment")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@class=&apos;btn btn-secondary float-left&apos; because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@class=&apos;btn btn-secondary float-left&apos;&apos; is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4c0e37740922e51a94cb9f48008772b
+*** Element info: {Using=xpath, value=//*[@class=&apos;btn btn-secondary float-left&apos;}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.poferries.freight.AutomationFramework.web.actions.PaymentFailurePageActions.closeSurveyPopup(PaymentFailurePageActions.java:37)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_close_the_survey_popup(MakeABookingSteps.java:1377)
+	at ?.I close the survey popup(file:src/test/resources/features/web/InvalidCardDetailsAndCancelPayment.feature:42)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 896dbaa182d620c54d170964c1aa7ed6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$37.apply(ExpectedConditions.java:1052)
+	at org.openqa.selenium.support.ui.ExpectedConditions$37.apply(ExpectedConditions.java:1047)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.poferries.freight.AutomationFramework.web.actions.HomePageActions.waitForProgressbarToappear(HomePageActions.java:57)
+	at com.poferries.freight.AutomationFramework.web.actions.HomePageActions.makeLengthAndLanguageSelections(HomePageActions.java:165)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_set_the_and_units(MakeABookingSteps.java:85)
+	at ?.I set the &quot;en&quot; and &quot;Metre&quot; units(file:src/test/resources/features/web/AbnormalWeightWidth.feature:19)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement with invalid card Details and cancelling the payment&quot;, &quot;Invalid C...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid Card Details and Cancel Payment")</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@class=&apos;btn btn-secondary float-left&apos; because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@class=&apos;btn btn-secondary float-left&apos;&apos; is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57867}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5e3390ca785df81b66ef53e44414cd11
+*** Element info: {Using=xpath, value=//*[@class=&apos;btn btn-secondary float-left&apos;}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.poferries.freight.AutomationFramework.web.actions.PaymentFailurePageActions.closeSurveyPopup(PaymentFailurePageActions.java:37)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_close_the_survey_popup(MakeABookingSteps.java:1377)
+	at ?.I close the survey popup(file:src/test/resources/features/web/InvalidCardDetailsAndCancelPayment.feature:42)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Change password Successfully&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Change password Successfully", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Change password Successfully", "Change password functionality")</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Logout&quot;}
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57340}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55c27ec3539c00b06a5d1b05806160d8
+*** Element info: {Using=link text, value=Logout}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at com.poferries.freight.AutomationFramework.web.actions.HomePageActions.clickLogOut(HomePageActions.java:31)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.LoginSteps.i_click_the_LogOut_Link(LoginSteps.java:67)
+	at ?.I click the LogOut Link(file:src/test/resources/features/web/ChangePassword.feature:44)
+... Removed 4 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=79.0.3945.79)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-KISPH7H&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\AKHIL\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a46eb993f0a6f6044eb2e8c2126739cf
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy17.getAttribute(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions$37.apply(ExpectedConditions.java:1052)
+	at org.openqa.selenium.support.ui.ExpectedConditions$37.apply(ExpectedConditions.java:1047)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.poferries.freight.AutomationFramework.web.actions.HomePageActions.waitForProgressbarToappear(HomePageActions.java:57)
+	at com.poferries.freight.AutomationFramework.web.actions.HomePageActions.makeLengthAndLanguageSelections(HomePageActions.java:141)
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_set_the_and_units_and(MakeABookingSteps.java:118)
+	at ?.I set the &quot;dt_language&quot; and &quot;dt_lengthUnit&quot; units and &quot;125&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:25)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [29-May-2020] but found [28-May-2020]
+	at com.poferries.freight.AutomationFramework.web.stepDefinitions.MakeABookingSteps.i_verify_the_confirmed_Payment_Details_and(MakeABookingSteps.java:1111)
+	at ?.I verify the confirmed Payment Details &quot;dt_paymentDate&quot;,&quot;dt_paymentType&quot; and &quot;dt_paymentStatus&quot;(file:src/test/resources/features/web/MakeABookingDataDriven.feature:62)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.poferries.freight.AutomationFramework.web.runner.RunCukes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement for multiple l...)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple languages")</span>
+                  <div class="stack-trace">org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:61)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.poferries.freight.AutomationFramework.web.runner.RunCukes</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;LogIn with InValid Credentials&quot;, &quot;Signing in to Web with correct account details&quot;)">
+                  </a> <!-- runScenario("LogIn with InValid Credentials", "Signing in to Web with correct account details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("LogIn with InValid Credentials", "Signing in to Web with correct account details")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify address has been changed from profile ...)">
+                  </a> <!-- runScenario("Verify error messages when invalid data is entered", "Verify address has been changed from profile ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error messages when invalid data is entered", "Verify address has been changed from profile Page")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">
+                  </a> <!-- runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify wheather profile changes have been updated&quot;, &quot;Verify Profile Page field validations&quot;)">
+                  </a> <!-- runScenario("Verify wheather profile changes have been updated", "Verify Profile Page field validations") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify wheather profile changes have been updated", "Verify Profile Page field validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Blank fields", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Blank fields", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">
+                  </a> <!-- runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Amend Booking&quot;, &quot;Vehicle Registration Field&quot;)">
+                  </a> <!-- runScenario("Amend Booking", "Vehicle Registration Field") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Amend Booking", "Vehicle Registration Field")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Blank fields", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Blank fields", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Invalid Details", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Invalid Details", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Blank fields", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Blank fields", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Blank fields&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Blank fields", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Blank fields", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Amend Booking&quot;, &quot;Vehicle Registration Field&quot;)">
+                  </a> <!-- runScenario("Amend Booking", "Vehicle Registration Field") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Amend Booking", "Vehicle Registration Field")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Dangerous goods and Pets selection&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Invalid Details", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Invalid Details", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Click Update password with Invalid Details&quot;, &quot;Change password functionality&quot;)">
+                  </a> <!-- runScenario("Click Update password with Invalid Details", "Change password functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Click Update password with Invalid Details", "Change password functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify error messages when invalid data is entered&quot;, &quot;Verify Profile Page field validations&quot;)">
+                  </a> <!-- runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;LogIn and Logout with Valid Credentials&quot;, &quot;Signing in to Web with correct account details&quot;)">
+                  </a> <!-- runScenario("LogIn and Logout with Valid Credentials", "Signing in to Web with correct account details") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("LogIn and Logout with Valid Credentials", "Signing in to Web with correct account details")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Vehicle length greater than TwentyTwo metre.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a DataDriven booking for a prelodgement&quot;, &quot;Validate the Booking process for a prelodgement&quot;)">
+                  </a> <!-- runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Amend Booking&quot;, &quot;Amend Booking&quot;)">
+                  </a> <!-- runScenario("Amend Booking", "Amend Booking") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Amend Booking", "Amend Booking")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Make a booking for a prelodgement&quot;, &quot;Abnormal weight width selection.&quot;)">
+                  </a> <!-- runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\AKHIL\POFerriesAutomation\AutomationFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.poferries.freight.AutomationFramework.web.runner.RunCukes&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(72);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(0, 3, 351072);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(1, 3, 216026);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(2, 3, 193804);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(3, 3, 171954);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(4, 3, 144953);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(5, 3, 143018);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(6, 3, 142806);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(7, 3, 140659);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(8, 3, 140209);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(9, 3, 138678);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(10, 3, 133920);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(11, 3, 132641);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(12, 3, 132193);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(13, 3, 129439);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(14, 3, 129379);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(15, 3, 128441);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(16, 3, 128087);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(17, 3, 124964);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(18, 3, 121226);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(19, 3, 120740);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(20, 3, 120426);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(21, 3, 119503);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(22, 3, 117746);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(23, 3, 115937);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(24, 3, 115700);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(25, 3, 115500);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(26, 3, 112964);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(27, 3, 110468);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(28, 3, 108779);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(29, 3, 107906);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(30, 3, 107546);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(31, 3, 107493);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(32, 3, 107142);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runScenario')
+data.setCell(33, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(33, 3, 106454);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runScenario')
+data.setCell(34, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(34, 3, 105543);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runScenario')
+data.setCell(35, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(35, 3, 105254);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runScenario')
+data.setCell(36, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(36, 3, 102555);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runScenario')
+data.setCell(37, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(37, 3, 102479);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runScenario')
+data.setCell(38, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(38, 3, 102412);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runScenario')
+data.setCell(39, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(39, 3, 99641);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runScenario')
+data.setCell(40, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(40, 3, 97829);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runScenario')
+data.setCell(41, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(41, 3, 97277);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runScenario')
+data.setCell(42, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(42, 3, 91166);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runScenario')
+data.setCell(43, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(43, 3, 90991);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runScenario')
+data.setCell(44, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(44, 3, 88756);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runScenario')
+data.setCell(45, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(45, 3, 87340);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runScenario')
+data.setCell(46, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(46, 3, 85902);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runScenario')
+data.setCell(47, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(47, 3, 85013);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runScenario')
+data.setCell(48, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(48, 3, 84991);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runScenario')
+data.setCell(49, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(49, 3, 82491);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runScenario')
+data.setCell(50, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(50, 3, 81000);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runScenario')
+data.setCell(51, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(51, 3, 78184);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runScenario')
+data.setCell(52, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(52, 3, 77453);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runScenario')
+data.setCell(53, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(53, 3, 77304);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'runScenario')
+data.setCell(54, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(54, 3, 77121);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'runScenario')
+data.setCell(55, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(55, 3, 69651);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'runScenario')
+data.setCell(56, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(56, 3, 68103);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'runScenario')
+data.setCell(57, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(57, 3, 67463);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'runScenario')
+data.setCell(58, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(58, 3, 53531);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'runScenario')
+data.setCell(59, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(59, 3, 42252);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'runScenario')
+data.setCell(60, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(60, 3, 41208);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'runScenario')
+data.setCell(61, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(61, 3, 39834);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'runScenario')
+data.setCell(62, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(62, 3, 34697);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'runScenario')
+data.setCell(63, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(63, 3, 30618);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'runScenario')
+data.setCell(64, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(64, 3, 29178);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'runScenario')
+data.setCell(65, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(65, 3, 27226);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'runScenario')
+data.setCell(66, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(66, 3, 26794);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'runScenario')
+data.setCell(67, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(67, 3, 26241);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'runScenario')
+data.setCell(68, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(68, 3, 25804);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'runScenario')
+data.setCell(69, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(69, 3, 24888);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'runScenario')
+data.setCell(70, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(70, 3, 24060);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'runScenario')
+data.setCell(71, 2, 'com.poferries.freight.AutomationFramework.web.runner.RunCukes')
+data.setCell(71, 3, 16929);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 hours</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.poferries.freight.AutomationFramework.web.runner.RunCukes</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">141069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">226061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">304245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">381366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Abnormal weight width selection.")</span>
+                <span class="method-start">466380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Amend Booking", "Amend Booking")</span>
+                <span class="method-start">555137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify error messages when invalid data is entered", "Verify address has been changed from profile ...)</span>
+                <span class="method-start">684577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Change password Successfully", "Change password functionality")</span>
+                <span class="method-start">900604 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Blank fields", "Change password functionality")</span>
+                <span class="method-start">1251678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Blank fields", "Change password functionality")</span>
+                <span class="method-start">1276567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Blank fields", "Change password functionality")</span>
+                <span class="method-start">1300628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Blank fields", "Change password functionality")</span>
+                <span class="method-start">1335326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Invalid Details", "Change password functionality")</span>
+                <span class="method-start">1361567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Invalid Details", "Change password functionality")</span>
+                <span class="method-start">1390745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Click Update password with Invalid Details", "Change password functionality")</span>
+                <span class="method-start">1417972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1443777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1554246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1631551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1733964 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1819867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Dangerous goods and Pets selection")</span>
+                <span class="method-start">1960077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...)</span>
+                <span class="method-start">2059719 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a booking for a prelodgement with invalid card Details and cancelling the payment", "Invalid C...)</span>
+                <span class="method-start">2204674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("LogIn and Logout with Valid Credentials", "Signing in to Web with correct account details")</span>
+                <span class="method-start">2310219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("LogIn with InValid Credentials", "Signing in to Web with correct account details")</span>
+                <span class="method-start">2340838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">2357767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">2529722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">2654686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">2783127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">2903553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3023057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3166076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3294163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3415389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3531090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3622256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3703257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3835451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">3926443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4065121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4142575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4245055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4342884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4448139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4555633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4582429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4697930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4805836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">4921774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5028917 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5146664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5254211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5362991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5465546 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a DataDriven booking for a prelodgement", "Validate the Booking process for a prelodgement")</span>
+                <span class="method-start">5599466 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">5793270 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">5899724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">6020464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">6133428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">6276234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Validate the Booking process for a prelodgement for multiple l...)</span>
+                <span class="method-start">6408875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                <span class="method-start">6538254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                <span class="method-start">6578088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify error messages when invalid data is entered", "Verify Profile Page field validations")</span>
+                <span class="method-start">6620340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify wheather profile changes have been updated", "Verify Profile Page field validations")</span>
+                <span class="method-start">6661548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                <span class="method-start">6715079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                <span class="method-start">6784730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                <span class="method-start">6867221 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Make a booking for a prelodgement", "Vehicle length greater than TwentyTwo metre.")</span>
+                <span class="method-start">6934684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Amend Booking", "Vehicle Registration Field")</span>
+                <span class="method-start">7031961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Amend Booking", "Vehicle Registration Field")</span>
+                <span class="method-start">7119301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">7187404 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
